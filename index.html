@@ -538,7 +538,7 @@
                                     { icon: "DownloadCloud", step: "03", title: "Pronto para Uso", desc: "Baixe o Arsenal e comece a encantar seus pacientes na próxima sessão." }
                                 ].map((step, i) => (
                                     <Reveal key={i} delay={i * 200} className={`flex flex-col items-center text-center relative group ${i < 2 ? 'md:step-line' : ''}`}>
-                                        <div className="relative mb-6 mb-12">
+                                        <div className="relative mb-6 md:mb-12">
                                             <div className="w-24 h-24 md:w-32 md:h-32 icon-squircle bg-gold-soft-gradient text-white shadow-2xl shadow-gold/30 group-hover:scale-110 transition-all z-10">
                                                 <Icon name={step.icon} size={36} className="md:w-11 md:h-11" />
                                             </div>
@@ -572,8 +572,8 @@
                                         
                                         <div className="price-container">
                                             <span className="price-symbol">R$</span>
-                                            <span className="price-main">37</span>
-                                            <span className="price-cents">,00</span>
+                                            <span className="price-main">24</span>
+                                            <span className="price-cents">,90</span>
                                         </div>
 
                                         <div className="mt-6 md:mt-8 space-y-1 md:space-y-2 px-4">
@@ -658,7 +658,7 @@
                             </Reveal>
                             <div className="space-y-3 md:space-y-4 px-1 md:px-0">
                                 {[
-                                    { q: "O acesso é realmente vitalício?", a: "Sim. Ao adquirir hoje por R$ 37,00, o Arsenal é seu para sempre. Você pode baixar os arquivos quantas vezes precisar, sem expiração." },
+                                    { q: "O acesso é realmente vitalício?", a: "Sim. Ao adquirir hoje por R$ 24,90, o Arsenal é seu para sempre. Você pode baixar os arquivos quantas vezes precisar, sem expiração." },
                                     { q: "Como recebo o material?", a: "Imediatamente após a aprovação do pagamento, você receberá um e-mail com os dados de acesso à nossa plataforma exclusiva de download." },
                                     { q: "Os arquivos são editáveis?", a: "Os arquivos são entregues em formato PDF de alta qualidade, prontos para impressão ou uso digital em tablets, garantindo a fidelidade do design luxuoso." },
                                     { q: "Consigo aplicar em qualquer idade?", a: "O acervo cobre desde a estimulação precoce até o refinamento de escrita e cognição, sendo ideal para pacientes de 2 a 12 anos." }
